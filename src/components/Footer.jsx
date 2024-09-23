@@ -69,9 +69,9 @@ const Footer = () => {
             <NavLink className="mt-3 text-lg font-medium" to="/contactus">
               Contact Us
             </NavLink>
-            <NavLink className="mt-3 text-lg font-medium" to="/contactus">
+            {/* <NavLink className="mt-3 text-lg font-medium" to="/contactus">
               Get a Quote
-            </NavLink>
+            </NavLink> */}
           </ul>
           <div className="flex mt-8 gap-2">
             <img src="./images/facebook.png" alt="" />
@@ -83,19 +83,19 @@ const Footer = () => {
           <ul className="flex flex-col gap-1  text-black">
             <NavLink
               className="mt-10 text-lg font-medium"
-              to="/websitedesigning"
+              to="/"
             >
               Terms & Conditions
             </NavLink>
             <NavLink
               className="mt-3 text-lg font-medium"
-              to="/websitedesigning"
+              to="/"
             >
               Privacy & Policy
             </NavLink>
             <NavLink
               className="mt-3 text-lg font-medium"
-              to="/websitedesigning"
+              to="/"
             >
               Refund Policy
             </NavLink>

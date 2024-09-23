@@ -41,7 +41,7 @@ const Detail = () => {
       <div className="sub_box">
         <div className="left">
           <div className="flex justify-center">
-          <img className="" src="../images/cube.png" alt="cube" />
+          <img className="animate-bounce" src="../images/cube.png" alt="cube" />
           </div>
           
         </div>

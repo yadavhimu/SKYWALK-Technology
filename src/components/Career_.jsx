@@ -25,9 +25,82 @@ const Career_ = () => {
           make us strong.
         </p>
       </div>
+        
+        <div className="lg:flex w-full mt-10">
+      <div className=" w-full ml-20 sm:ml-0 md:ml-20  mt-14">
+          <form>
+            <div className="input-box">
+              <label></label>
+              <input
+                type="text"
+                className="w-[60%] h-16"
+                placeholder="Full Name"
+                required
+              />
+              <hr className="border-2 border-orange-500 w-[60%]" />
+            </div>
+            <div className="input-box">
+              <label></label>
+              <input
+                type="email"
+                className="w-[60%] h-16 "
+                placeholder="Email"
+                required
+              />
+              <hr className="border-2 border-orange-500 w-[60%]" />
+            </div>
+            <div className="input-box">
+              <label></label>
+              <input
+                type="number"
+                className="w-[60%] h-16"
+                placeholder="Phone"
+                required
+              />
+              <hr className="border-2 border-orange-500 w-[60%]" />
+            </div>
+            <div className="input-box">
+              <label></label>
+              <select className="Select Position w-[60%] h-16">
+                <option value="Position">Position</option>
+                <option>Software Developer</option>
+                <option>Test Engineer</option>
+                <option>Team Lead</option>
+                <option>Process Analyst</option>
+                <option>Operations Manager</option>
+                <option>Digital Marketing</option>
+                <option>SEO Developer</option>
+                <option>Process Associate</option>
+                <option>Chat Process</option>
+                </select>
+              <hr className="border-2 border-orange-500 w-[60%]" />
+            </div>
+            <div className="input-box">
+              <label></label>
+              <input
+                type="Date"
+                className="w-[60%] h-16 "
+                placeholder="Subject"
+                required
+              />
+              <hr className="border-2 border-orange-500 w-[60%]" />
+            </div>
+            
+            <button
+              className="mt-20 w-[60%] bg-yellow-400 h-10 font-bold text-lg"
+              type="submit"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+        <div className=" sm:w-full">
+          <img src="./images/careerpage.webp" alt="" />
+        </div>
+        </div>
 
-      <div className="lg:flex sm:ml-20  sm:w-[100%]">
-        <div className="mt-10  lg:mt-32 w-[100%]" >
+      {/* <div className="lg:flex sm:ml-20  sm:w-[100%]">
+        <div className=" mt-10  lg:mt-32 w-[100%]" >
           <form>
             <div className="input-group  sm:flex h-10 gap-6 mb-8 ">
               <div className="input-box">
@@ -103,7 +176,8 @@ const Career_ = () => {
         <div className=" sm:w-[80%]">
           <img src="./images/careerpage.webp" alt="" />
         </div>
-      </div>
+      </div> */}
+
     </div>
   );
 };

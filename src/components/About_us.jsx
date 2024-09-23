@@ -47,7 +47,7 @@ const About_us = () => {
       <div className="about_box">
         <div className="about_left">
           <h1>Our Vision</h1>
-          <p>
+          <p className="left_p">
             Our vision is to set the highest standards in the
             fields of software development, Web Development,
              Search Engine Optimization, Digital Marketing, IT
@@ -68,7 +68,7 @@ const About_us = () => {
         />
         <div className="about_left">
           <h1>Our Strength</h1>
-          <p>
+          <p className="left_p">
             At Delta Soft System, our first step is to understand the
             client/customer 
             requirement and specification,
