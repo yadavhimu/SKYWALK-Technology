@@ -1,5 +1,35 @@
 import React from "react";
+import Swal from 'sweetalert2'
+
 const Career_ = () => {
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "69bcf56e-9748-4d7a-a861-a2c4533ccd93");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      Swal.fire({
+        title: "Success!",
+        text: "Message sent successfully!",
+        icon: "success"
+      });
+    }
+  };
+
   return (
     <div className="">
       <div className=" sm:w-[100%]">
@@ -25,16 +55,17 @@ const Career_ = () => {
           make us strong.
         </p>
       </div>
-        
-        <div className="lg:flex w-full mt-10">
-      <div className=" w-full ml-20 sm:ml-0 md:ml-20  mt-14">
-          <form>
+
+      <div className="lg:flex w-full mt-10">
+        <div className=" w-full ml-20 sm:ml-0 md:ml-20  mt-14">
+          <form onSubmit={onSubmit}>
             <div className="input-box">
               <label></label>
               <input
                 type="text"
                 className="w-[60%] h-16"
                 placeholder="Full Name"
+                name='name'
                 required
               />
               <hr className="border-2 border-orange-500 w-[60%]" />
@@ -45,6 +76,7 @@ const Career_ = () => {
                 type="email"
                 className="w-[60%] h-16 "
                 placeholder="Email"
+                name='email'
                 required
               />
               <hr className="border-2 border-orange-500 w-[60%]" />
@@ -55,13 +87,14 @@ const Career_ = () => {
                 type="number"
                 className="w-[60%] h-16"
                 placeholder="Phone"
+                name='phone'
                 required
               />
               <hr className="border-2 border-orange-500 w-[60%]" />
             </div>
             <div className="input-box">
               <label></label>
-              <select className="Select Position w-[60%] h-16">
+              <select name='Position' className="Select Position w-[60%] h-16">
                 <option value="Position">Position</option>
                 <option>Software Developer</option>
                 <option>Test Engineer</option>
@@ -72,7 +105,7 @@ const Career_ = () => {
                 <option>SEO Developer</option>
                 <option>Process Associate</option>
                 <option>Chat Process</option>
-                </select>
+              </select>
               <hr className="border-2 border-orange-500 w-[60%]" />
             </div>
             <div className="input-box">
@@ -80,12 +113,13 @@ const Career_ = () => {
               <input
                 type="Date"
                 className="w-[60%] h-16 "
-                placeholder="Subject"
+                placeholder="Date"
+                name='Date'
                 required
               />
               <hr className="border-2 border-orange-500 w-[60%]" />
             </div>
-            
+
             <button
               className="mt-20 w-[60%] bg-yellow-400 h-10 font-bold text-lg"
               type="submit"
@@ -97,7 +131,7 @@ const Career_ = () => {
         <div className=" sm:w-full">
           <img src="./images/careerpage.webp" alt="" />
         </div>
-        </div>
+      </div>
 
       {/* <div className="lg:flex sm:ml-20  sm:w-[100%]">
         <div className=" mt-10  lg:mt-32 w-[100%]" >
@@ -177,7 +211,6 @@ const Career_ = () => {
           <img src="./images/careerpage.webp" alt="" />
         </div>
       </div> */}
-
     </div>
   );
 };

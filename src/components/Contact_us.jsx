@@ -1,6 +1,35 @@
 import React from "react";
+import Swal from 'sweetalert2'
 
 const Contact_us = () => {
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "69bcf56e-9748-4d7a-a861-a2c4533ccd93");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      Swal.fire({
+        title: "Success!",
+        text: "Message sent successfully!",
+        icon: "success"
+      });
+    }
+  };
+
   return (
     <div className="contact_main">
       <div className="inside_contact ">
@@ -69,13 +98,14 @@ const Contact_us = () => {
         </div>
 
         <div className=" w-full ml-20 sm:ml-0 md:ml-20 lg:w-[50%] mt-14">
-          <form>
+          <form onSubmit={onSubmit}>
             <div className="input-box">
               <label></label>
               <input
                 type="text"
                 className="w-[60%] h-16"
                 placeholder="Full Name"
+                name='name'
                 required
               />
               <hr className="border-2 border-orange-500 w-[60%]" />
@@ -86,6 +116,7 @@ const Contact_us = () => {
                 type="email"
                 className="w-[60%] h-16 "
                 placeholder="Email"
+                name='email'
                 required
               />
               <hr className="border-2 border-orange-500 w-[60%]" />
@@ -96,6 +127,7 @@ const Contact_us = () => {
                 type="number"
                 className="w-[60%] h-16"
                 placeholder="Phone"
+                name='phone'
                 required
               />
               <hr className="border-2 border-orange-500 w-[60%]" />
@@ -106,6 +138,7 @@ const Contact_us = () => {
                 type="text"
                 className="w-[60%] h-16 "
                 placeholder="Subject"
+                name='subject'
                 required
               />
               <hr className="border-2 border-orange-500 w-[60%]" />
@@ -116,6 +149,7 @@ const Contact_us = () => {
                 className="w-[60%] h-20"
                 id=""
                 placeholder="Type your message here"
+                name='message'
                 required
               />
               <hr className="border-2 border-orange-500 w-[60%]" />

@@ -7,7 +7,11 @@ const Service_page = () => {
 
       <div className="sub_container sm:flex ">
         <div className="left_container">
-          <img className="bg-yellow-500 rounded-full" src="../images/websiteDesigning.png" alt="" />
+          <img
+            className="bg-yellow-500 rounded-full"
+            src="../images/websiteDesigning.png"
+            alt=""
+          />
         </div>
 
         <div className="right_container">
@@ -38,12 +42,20 @@ const Service_page = () => {
           </div>
         </div>
         <div className="right_container-2">
-          <img className="bg-yellow-500 rounded-full" src="../images/website Development.png" alt="" />
+          <img
+            className="bg-yellow-500 rounded-full"
+            src="../images/website Development.png"
+            alt=""
+          />
         </div>
       </div>
       <div className="sub_container">
         <div className="left_container_3">
-          <img className="bg-yellow-500 rounded-full" src="../images/Software Development.png" alt="" />
+          <img
+            className="bg-yellow-500 rounded-full"
+            src="../images/Software Development.png"
+            alt=""
+          />
         </div>
         <div className="right_container_3">
           <h1 className="right_heading_3">Software Development</h1>
@@ -51,9 +63,9 @@ const Service_page = () => {
           <hr className="line_4" />
           <div className="right_pera">
             <p>
-              Understanding your requirements of Software <br/> Development and
-              objectives is important to us. We <br/> listen and work together to
-              create a truly unique experience.
+              Understanding your requirements of Software <br /> Development and
+              objectives is important to us. We <br /> listen and work together
+              to create a truly unique experience.
             </p>
           </div>
         </div>
@@ -73,9 +85,24 @@ const Service_page = () => {
           </div>
         </div>
         <div className="right_container-2">
-          <img className="bg-yellow-500 rounded-full" src="../images/Graphics Designing.png" alt="" />
+          <img
+            className="bg-yellow-500 rounded-full"
+            src="../images/Graphics Designing.png"
+            alt=""
+          />
         </div>
       </div>
+
+      {/* <div>
+        <div>
+          <h1>
+            Delta Soft System offers creative website design and development
+            with dynamic functionality and attractive theme to grow your
+            business and increase your sales:{" "}
+          </h1>
+        </div>
+        <div></div>
+      </div> */}
     </div>
   );
 };
