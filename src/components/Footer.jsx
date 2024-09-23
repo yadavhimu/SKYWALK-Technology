@@ -26,6 +26,12 @@ const Footer = () => {
             >
               Android App Development
             </NavLink>
+            <NavLink
+              className="mt-3 text-lg font-medium"
+              to="/graphicdesign"
+            >
+              Graphics Design
+            </NavLink>
             <NavLink className="mt-3 text-lg font-medium" to="/googleadwords">
               Google Adword/PPC Packages
             </NavLink>

@@ -12,10 +12,13 @@ import WebsiteDesigning from './pages/WebsiteDesigning'
 import WebsiteDevelopment from './pages/WebsiteDevelopment'
 import SoftwareDevelopment from './pages/SoftwareDevelopment'
 import GoogleAdwords from './pages/GoogleAdwords'
+import GraphicDesign from './pages/GraphicDesign'
+import ScrollToTop from './components/ScrollToTop'
 
 const App = () => {
   return (
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
+      <ScrollToTop/>
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -28,6 +31,7 @@ const App = () => {
         <Route path="/websitedevelopment"element={<WebsiteDevelopment/>}></Route>
         <Route path="/softwaredevelopment"element={<SoftwareDevelopment/>}></Route>
         <Route path="/googleadwords"element={<GoogleAdwords/>}></Route>
+        <Route path="/graphicdesign"element={<GraphicDesign/>}></Route>
       </Routes>
       <Footer/>
     </div>

@@ -40,7 +40,7 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 <li className="cursor-pointer hover:text-black">
-                  <NavLink to="/websitedesigning">Graphic Designing</NavLink>
+                  <NavLink to="/graphicdesign">Graphic Designing</NavLink>
                 </li>
               </div>
             </div>
