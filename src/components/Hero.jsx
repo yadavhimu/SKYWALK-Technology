@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
@@ -21,6 +21,15 @@ const Hero = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  useEffect(() => {
+		const interval = setInterval(() => {
+			setCurrentIndex((prevIndex) =>
+				prevIndex === slides.length - 1 ? 0 : prevIndex + 1
+			);
+		}, 2000);
+		return () => clearInterval(interval);
+	}, [currentIndex, slides.length]);
+
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
     const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
@@ -42,7 +51,7 @@ const Hero = () => {
     <div className=' h-[160px] md:h-[250px]  lg:h-[600px]  relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className='sm:w-full h-full bg-center bg-cover duration-500'
+        className='sm:w-full h-full bg-center bg-cover duration-1000'
       ></div>
       {/* Left Arrow */}
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>

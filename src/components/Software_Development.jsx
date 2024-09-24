@@ -7,7 +7,7 @@ const Software_Development = () => {
         <h1 className="text-4xl lg:text-6xl  text-blue-950">Software Development</h1>
       </div>
 
-      <div className="w-[100%] mt-6">
+      <div className="w-[100%] mt-20">
         <div className="lg:flex">
           <div className="w-[100%] lg:grid-cols-2 lg:mr-4">
             <h1 className=" text-2xl lg:text-5xl flex justify-end text-yellow-500">

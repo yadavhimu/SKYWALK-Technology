@@ -46,7 +46,7 @@ const AnotherServices = () => {
             Licenses, RBI / FIPB Foreign Investment Promotion Board
           </li>
         </ol>
-        <div className="inside_main_1">
+        {/* <div className="inside_main_1">
           <h1>RECRUITMENT PROCESS OUTSOURCING</h1>
           <p>
             With technological advancement contender sourcing, data generation,
@@ -70,7 +70,7 @@ const AnotherServices = () => {
             advisory, Strategic and Operational improvement services focusing on
             viable business opportunities for our clients
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

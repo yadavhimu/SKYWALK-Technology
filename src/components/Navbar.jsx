@@ -26,9 +26,9 @@ const Navbar = () => {
             Services
             <div className=" z-50 group-hover:block hidden absolute dropdown-menu  shadow-xl border-2 border-blue-200">
               <div className="flex flex-col  gap-2 w-72 py-3 px-3 bg-slate-100 text-blue-950 ">
-                <li className="cursor-pointer hover:text-black">
+                {/* <li className="cursor-pointer hover:text-black">
                   <NavLink to="/websitedesigning">Website Designing</NavLink>
-                </li>
+                </li> */}
                 <li className="cursor-pointer hover:text-black">
                   <NavLink to="/websitedevelopment">
                     Website Development
@@ -40,7 +40,7 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 <li className="cursor-pointer hover:text-black">
-                  <NavLink to="/graphicdesign">Graphic Designing</NavLink>
+                  <NavLink to="/googleadwords">Google Adword</NavLink>
                 </li>
               </div>
             </div>
@@ -121,9 +121,9 @@ const Navbar = () => {
                     Software Development
                   </NavLink>
                 </li>
-                <li className="cursor-pointer hover:text-black">
+                {/* <li className="cursor-pointer hover:text-black">
                   <NavLink to="/websitedesigning">Graphic Designing</NavLink>
-                </li>
+                </li> */}
               </div>
             </div>
             

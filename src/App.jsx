@@ -8,11 +8,11 @@ import ContactUs from './pages/ContactUs'
 import OtherServices from './pages/OtherServices'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import WebsiteDesigning from './pages/WebsiteDesigning'
+// import WebsiteDesigning from './pages/WebsiteDesigning'
 import WebsiteDevelopment from './pages/WebsiteDevelopment'
 import SoftwareDevelopment from './pages/SoftwareDevelopment'
 import GoogleAdwords from './pages/GoogleAdwords'
-import GraphicDesign from './pages/GraphicDesign'
+// import GraphicDesign from './pages/GraphicDesign'
 import ScrollToTop from './components/ScrollToTop'
 
 const App = () => {
@@ -27,11 +27,11 @@ const App = () => {
         <Route path="/careers" element={<Careers/>}/>
         <Route path="/contactus" element={<ContactUs/>}/>
         <Route path="/otherservices" element={<OtherServices/>}/>
-        <Route path="/websitedesigning" element={<WebsiteDesigning/>}></Route>
+        {/* <Route path="/websitedesigning" element={<WebsiteDesigning/>}></Route> */}
         <Route path="/websitedevelopment"element={<WebsiteDevelopment/>}></Route>
         <Route path="/softwaredevelopment"element={<SoftwareDevelopment/>}></Route>
         <Route path="/googleadwords"element={<GoogleAdwords/>}></Route>
-        <Route path="/graphicdesign"element={<GraphicDesign/>}></Route>
+        {/* <Route path="/graphicdesign"element={<GraphicDesign/>}></Route> */}
       </Routes>
       <Footer/>
     </div>

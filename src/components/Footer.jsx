@@ -6,32 +6,32 @@ const Footer = () => {
     <div className=" bg-[#f5af2c] mb-3 rounded-lg">
       <div className="md:flex ml-10  gap-14 my-10 mt-40 p-2 text-sm">
         <div>
-          <p className="text-3xl  mb-5 font-bold">SERVICES</p>
+          <p className="text-3xl  mb-5 font-bold">Services</p>
           <ul className="flex flex-col gap-1 text-black">
-            <NavLink
+            {/* <NavLink
               className="mt-2 text-lg font-medium"
               to="/websitedesigning"
             >
               Website Designing
-            </NavLink>
+            </NavLink> */}
             <NavLink
               className="mt-3 text-lg font-medium"
               to="/websitedevelopment"
             >
-              Website Development
+              Website Development/Designing
             </NavLink>
             <NavLink
               className="mt-3 text-lg font-medium"
               to="/softwaredevelopment"
             >
-              Android App Development
+              Software Development
             </NavLink>
-            <NavLink
+            {/* <NavLink
               className="mt-3 text-lg font-medium"
               to="/graphicdesign"
             >
               Graphics Design
-            </NavLink>
+            </NavLink> */}
             <NavLink className="mt-3 text-lg font-medium" to="/googleadwords">
               Google Adword/PPC Packages
             </NavLink>

@@ -99,7 +99,7 @@ const Website_design = () => {
 
       <div className="">
         <h1 className="flex justify-center text-4xl text-yellow-600 font-semibold mt-10">
-          E-commerce Website
+          E-Commerce Website
         </h1>
         <p className="flex justify-center text-lg lg:text-2xl mt-4">
           eCommerce naturally has taken precedence over traditional methods of
