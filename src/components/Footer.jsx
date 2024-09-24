@@ -83,7 +83,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-1  text-black">
             <NavLink
               className="mt-10 text-lg font-medium"
-              to="/"
+              to="/terms"
             >
               Terms & Conditions
             </NavLink>

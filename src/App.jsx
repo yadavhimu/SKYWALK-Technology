@@ -14,6 +14,8 @@ import SoftwareDevelopment from './pages/SoftwareDevelopment'
 import GoogleAdwords from './pages/GoogleAdwords'
 // import GraphicDesign from './pages/GraphicDesign'
 import ScrollToTop from './components/ScrollToTop'
+import Terms from './pages/Terms'
+
 
 const App = () => {
   return (
@@ -31,6 +33,7 @@ const App = () => {
         <Route path="/websitedevelopment"element={<WebsiteDevelopment/>}></Route>
         <Route path="/softwaredevelopment"element={<SoftwareDevelopment/>}></Route>
         <Route path="/googleadwords"element={<GoogleAdwords/>}></Route>
+        <Route path="/terms"element={<Terms/>}></Route>
         {/* <Route path="/graphicdesign"element={<GraphicDesign/>}></Route> */}
       </Routes>
       <Footer/>

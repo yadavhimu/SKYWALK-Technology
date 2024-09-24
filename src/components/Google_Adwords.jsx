@@ -7,7 +7,7 @@ const Google_Adwords = () => {
         <h1 className="text-3xl lg:text-6xl  text-blue-950">Digital Marketing</h1>
       </div>
 
-      <div className="w-[100%] mt-6">
+      <div className="w-[100%] mt-20">
         <div className="lg:flex ">
           <div className="w-[100%] grid-cols-2 mr-4 mt-16">
             <h1 className="text-2xl md:text-3xl lg:text-4xl flex justify-end text-yellow-500">
