@@ -5,11 +5,10 @@ import ButtonMailto from "./ButtonMailto";
 const Privacy_Policy = () => {
   return (
     <div>
-      <div>
-        <h1 className="text-2xl lg:text-4xl flex justify-center font-medium mt-10">
+      <div className="ml-3">
+        <h1 className="text-3xl lg:text-4xl flex justify-center font-semibold mt-10">
           Privacy & Policy
         </h1>
-
         <p className="mt-6 text-2xl text-blue-900 font-medium">Introduction</p>
         <p className="mt-6">
           GDPR is an opportunity to build a stronger data protection foundation
@@ -477,6 +476,7 @@ const Privacy_Policy = () => {
           from registered users. However some of your plugins may collect
           personal data. You should add the relevant information below.
         </p>
+        <br />
         <p className="text-xl font-medium">Comments</p>
         <p>
           In this subsection you should note what information is captured
@@ -502,7 +502,6 @@ const Privacy_Policy = () => {
         </p>
         <br />
         <p className="text-xl font-medium">Media</p>
-
         <p>
           In this subsection you should note what information may be disclosed
           by users who can upload media files. All uploaded files are usually
@@ -511,8 +510,8 @@ const Privacy_Policy = () => {
           (EXIF GPS) included. Visitors to the website can download and extract
           any location data from images on the website.
         </p>
-        <p className="text-xl font-medium">Contact forms</p>
         <br />
+        <p className="text-xl font-medium">Contact forms</p>
         <p>
           By default, WordPress does not include a contact form. If you use a
           contact form plugin, use this subsection to note what personal data is
@@ -521,6 +520,7 @@ const Privacy_Policy = () => {
           for a certain period for customer service purposes, but you do not use
           the information submitted through them for marketing purposes.
         </p>
+        <br />
         <p className="text-xl font-medium">Cookies</p>
         <p>
           In this subsection you should list the cookies your web site uses,
@@ -552,7 +552,6 @@ const Privacy_Policy = () => {
         <p className="text-xl font-medium">
           Embedded content from other websites
         </p>
-        <br />
         <p>
           Suggested text:Articles on this site may include embedded content
           (e.g. videos, images, articles, etc.). Embedded content from other
@@ -566,6 +565,7 @@ const Privacy_Policy = () => {
           embedded content if you have an account and are logged in to that
           website.
         </p>
+        <br />
         <p className="text-xl font-medium">Analytics</p>
         <p>
           In this subsection you should note what analytics package you use, how
@@ -576,6 +576,7 @@ const Privacy_Policy = () => {
           plugin that provides analytics services. In that case, add information
           from that plugin here.
         </p>
+        <br />
         <p className="text-xl text-gray-600 font-medium">
           Who we share your data with
         </p>
@@ -622,6 +623,7 @@ const Privacy_Policy = () => {
           any data we are obliged to keep for administrative, legal, or security
           purposes.
         </p>
+        <br />
         <p className="text-xl text-gray-600 font-medium">
           Where we send your data
         </p>
@@ -645,6 +647,7 @@ const Privacy_Policy = () => {
           Suggested text:Visitor comments may be checked through an automated
           spam detection service.
         </p>
+        <br />
         <p className="text-xl text-gray-600 font-medium">WooCommerce</p>
         <p>
           This sample language includes the basics around what personal data
@@ -737,6 +740,7 @@ const Privacy_Policy = () => {
           Our team members have access to this information to help fulfill
           orders, process refunds and support you.
         </p>
+        <br />
         <p className="text-xl text-gray-600">What we share with others</p>
         <p>
           In this section you should list who you’re sharing data with, and for
@@ -813,11 +817,12 @@ const Privacy_Policy = () => {
           images served by the CDN may be stored and served from countries other
           than your own.
         </p>
-<br/>
+        <br />
         <p className="text-xl text-gray-600">PayPal Checkout</p>
         <p>
           By using this extension, you may be storing personal data or sharing
-          data with an external service.<Link
+          data with an external service.
+          <Link
             className="text-blue-600"
             to="https://woocommerce.com/document/privacy-payments/#woocommerce-gateway-paypal-express-checkout"
             target="_new"
@@ -825,6 +830,643 @@ const Privacy_Policy = () => {
             {" "}
             https://woocommerce.com/document/privacy-payments/#woocommerce-gateway-paypal-express-checkout{" "}
           </Link>
+        </p>
+        <br />
+        <p className="text-xl text-gray-500">WooCommerce Services</p>
+        <p>
+          By using this extension, you may be storing personal data or sharing
+          data with an external service.
+          <Link
+            className="text-blue-600"
+            to="https://woocommerce.com/document/privacy-payments/#woocommerce-gateway-paypal-express-checkout"
+            target="_new"
+          >
+            {" "}
+            https://woocommerce.com/document/privacy-payments/#woocommerce-gateway-paypal-express-checkout{" "}
+          </Link>
+        </p>
+        <br />
+        <p className="text-xl text-gray-500">Akismet</p>
+        <p>
+          We collect information about visitors who comment on Sites that use
+          our Akismet anti-spam service. The information we collect depends on
+          how the User sets up Akismet for the Site, but typically includes the
+          commenter’s IP address, user agent, referrer, and Site URL (along with
+          other information directly provided by the commenter such as their
+          name, username, email address, and the comment itself).
+        </p>
+        <br />
+        <p className="text-xl font-medium">YouTube</p>
+        <p>
+          Our website uses plugins from YouTube, which is operated by Google.
+          The operator of the pages is YouTube LLC, 901 Cherry Ave., San Bruno,
+          CA 94066, USA. If you visit one of our pages featuring a YouTube
+          plugin, a connection to the YouTube servers is established. Here the
+          YouTube server is informed about which of our pages you have visited.
+        </p>
+        <p>
+          If you’re logged in to your YouTube account, YouTube allows you to
+          associate your browsing behavior directly with your personal profile.
+          You can prevent this by logging out of your YouTube account.
+        </p>
+        <p>
+          YouTube is used to help make our website appealing. This constitutes a
+          justified interest pursuant to Art. 6 (1) (f) DSGVO. Further
+          information about handling user data, can be found in the data
+          protection declaration of YouTube under
+          <Link
+            className="text-blue-600"
+            to="https://woocommerce.https://policies.google.com/privacy?hl=de&gl=decom/document/privacy-payments/#woocommerce-gateway-paypal-express-checkout"
+            target="_new"
+          >
+            {" "}
+            https://policies.google.com/privacy?hl=de&gl=de
+          </Link>
+        </p>
+        <br />
+        <p className="text-xl font-medium">Vimeo</p>
+        <p>
+          Our website uses features provided by the Vimeo video portal. This
+          service is provided by Vimeo Inc., 555 West 18th Street, New York, New
+          York 10011, USA. If you visit one of our pages featuring a Vimeo
+          plugin, a connection to the Vimeo servers is established. Here the
+          Vimeo server is informed about which of our pages you have visited. In
+          addition, Vimeo will receive your IP address. This also applies if you
+          are not logged in to Vimeo when you visit our plugin or do not have a
+          Vimeo account. The information is transmitted to a Vimeo server in the
+          US, where it is stored.
+        </p>
+        <p>
+          If you are logged in to your Vimeo account, Vimeo allows you to
+          associate your browsing behavior directly with your personal profile.
+          You can prevent this by logging out of your Vimeo account.
+        </p>
+        <p>
+          For more information on how to handle user data, please refer to the
+          Vimeo Privacy Policy at{" "}
+          <Link
+            className="text-blue-600"
+            to="https://vimeo.com/privacy"
+            target="_new"
+          >
+            {" "}
+            https://vimeo.com/privacy
+          </Link>
+        </p>
+        <br />
+        <p className="text-xl font-medium">Google Web Fonts</p>
+        <p>
+          For uniform representation of fonts, this page uses web fonts provided
+          by Google. When you open a page, your browser loads the required web
+          fonts into your browser cache to display texts and fonts correctly.
+        </p>
+        <p>
+          For this purpose your browser has to establish a direct connection to
+          Google servers. Google thus becomes aware that our web page was
+          accessed via your IP address. The use of Google Web fonts is done in
+          the interest of a uniform and attractive presentation of our plugin.
+          This constitutes a justified interest pursuant to Art. 6 (1) (f)
+          DSGVO. If your browser does not support web fonts, a standard font is
+          used by your computer.
+        </p>
+        <br />
+        <p className="text-xl font-medium">SoundCloud</p>
+        <p>
+          On our pages, plugins of the SoundCloud social network (SoundCloud
+          Limited, Berners House, 47-48 Berners Street, London W1T 3NF, UK) may
+          be integrated. The SoundCloud plugins can be recognized by the
+          SoundCloud logo on our site.
+        </p>
+        <p>
+          When you visit our site, a direct connection between your browser and
+          the SoundCloud server is established via the plugin. This enables
+          SoundCloud to receive information that you have visited our site from
+          your IP address. If you click on the “Like” or “Share” buttons while
+          you are logged into your SoundCloud account, you can link the content
+          of our pages to your SoundCloud profile. This means that SoundCloud
+          can associate visits to our pages with your user account. We would
+          like to point out that, as the provider of these pages, we have no
+          knowledge of the content of the data transmitted or how it will be
+          used by SoundCloud. For more information on SoundCloud’s privacy
+          policy, please go to{" "}
+          <Link
+            className="text-blue-600"
+            to="https://soundcloud.com/pages/privacy."
+            target="_new"
+          >
+            {" "}
+            https://soundcloud.com/pages/privacy.
+          </Link>
+        </p>
+        <p>
+          If you do not want SoundCloud to associate your visit to our site with
+          your SoundCloud account, please log out of your SoundCloud account.
+        </p>
+        <br />
+        <p className="text-blue-600 text-3xl font-medium">
+          GDPR AND OUR PLUGINS
+        </p>
+        <p>
+          Our plugins and add-ons are compatible with GDPR. Below are the common
+          questions related to GDPR.
+        </p>
+        <br />
+        <p className="text-2xl font-medium">Do your plugins track any data?</p>
+        <p>
+          We do not track any user data via our plugins. But if our plugin
+          depends on any third party service, they might track user data. This
+          can happen in following two ways:
+        </p>
+        <p>1. Embedded Widgets</p>
+        <p>
+          Some of our plugins have features to integrate embedded widgets as is,
+          from third party services (like Facebook Like, Facebook Recommend,
+          Twitter Tweet official buttons). You can include relevant text in the
+          privacy policy of your website as mentioned below.
+        </p>
+        <p>2. Third-party APIs/Connections</p>
+        <p>
+          Our plugins send request to third party APIs via website-visitor’s web
+          browser to fetch information (like social shares, social comment
+          count). This request made by web browser may include IP address, which
+          can then be seen by the third-party that it’s being requested from.
+          This API request doesn’t include any personal data of the website user
+          other than the IP address. To make your users aware of this, you can
+          include relevant snippets in your website’s privacy policy.
+        </p>
+        <br />
+        <p className="text-2xl font-medium">
+          Where is the data collected by your plugins stored?
+        </p>
+        <p>
+          We do not store any data fetched by our plugins on our servers,
+          neither we share that data with any third party. Our plugins run
+          absolutely on your website and store the data in the database of your
+          website.
+        </p>
+        <br />
+        <p className="text-xl font-medium">
+          Do your plugins load any external scripts?
+        </p>
+        <p>
+          As mentioned before, our plugins run absolutely from your website and
+          hence load the scripts too from your website with exception of
+          third-party embedded widgets (like Facebook Like/Recommend official
+          button, Twitter tweet official button, Facebook Comments) which
+          require our plugin to load scripts from the servers of relevant
+          service. You can include relevant snippets in the Privacy Policy of
+          your website stating how these services handle privacy of your users.
+        </p>
+        <br />
+        <p className="text-xl font-medium">GDPR Privacy Policy Snippets</p>
+        <p>
+          Below are a collection of snippets that you can include in your
+          website’s privacy policy, depending on which plugin and features you
+          are using. Super Socializer – Social Login
+        </p>
+        <p>
+          If you are using social login feature of our Super Socializer plugin,
+          you can add following in the privacy policy of your website:
+        </p>
+        <p>
+          We collect your public profile data only from your consent that you
+          grant before initiating Social Login, from the social network used to
+          login at our website. This data includes your first name, last name,
+          email address, link to your social media profile, unique identifier,
+          link to social profile avatar. This data is used to create your user
+          profile at our website. You can revoke this consent at any time by
+          sending us an email.
+        </p>
+        <p>Heateor Login</p>
+        <br />
+        <p>
+          If you are using Heateor Login plugin, you can add following in the
+          privacy policy of your website:
+        </p>
+        <p>
+          We collect your public profile data only from your consent that you
+          grant before initiating Facebook Login, from the social network used
+          to login at our website. This data includes your first name, last
+          name, email address, unique identifier, link to social profile avatar.
+          This data is used to create your user profile at our website. You can
+          revoke this consent at any time by sending us an email.
+        </p>
+        <p>Facebook Comments</p>
+        <br />
+        <p>
+          If you are using Facebook Comments feature of any of our plugin, you
+          can add following in the privacy policy of your website:
+        </p>
+        <p>
+          We embed Facebook Comments plugin to allow you to leave comment at our
+          website using your Facebook account. This plugin may collect your IP
+          address, your web browser User Agent, store and retrieve cookies on
+          your browser, embed additional tracking, and monitor your interaction
+          with the commenting interface, including correlating your Facebook
+          account with whatever action you take within the interface (such as
+          “liking” someone’s comment, replying to other comments), if you are
+          logged into Facebook. For more information about how this data may be
+          used, please see Facebook’s data privacy policy:
+          <Link
+            className="text-blue-600"
+            to="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
+            target="_new"
+          >
+            {" "}
+            https://www.facebook.com/about/privacy/update
+          </Link>
+        </p>
+        <p>GooglePlus Comments</p>
+        <p>
+          If you are using GooglePlus Comments feature of any of our plugin, you
+          can add following in the privacy policy of your website:
+        </p>
+        <p>
+          We use GooglePlus Comments widget at our website for you to be able to
+          comment at our webpages using your GooglePlus account. From this
+          interaction Google automatically collects and store certain
+          information in server logs like IP address, device event information
+          such as crashes, system activity, hardware settings, browser type,
+          browser language, the date and time of your request, in accordance
+          with their data privacy policy:
+          <Link
+            className="text-blue-600"
+            to="https://policies.google.com/privacy"
+            target="_new"
+          >
+            {" "}
+            https://policies.google.com/privacy
+          </Link>
+        </p>
+        <p>Disqus Comments</p>
+        <p>
+          If you are using Disqus Comments feature of any of our plugin, you can
+          add following in the privacy policy of your website:
+        </p>
+        <p>
+          We use Disqus Comments widget at our website for you to be able to
+          comment at our webpages using Disqus commenting system. Disqus may
+          collect information about you when you register for and use the
+          Service. Such information may include “Personally Identifiable
+          Information” which means information that identifies you as an
+          individual, such information may include, but is not limited to, your
+          name, email address, telephone number, username or account ID, and
+          “Non-Personally Identifiable Information” which means information that
+          does not identify you as an individual. Non-Personally Identifiable
+          Information may include, but is not limited to, information about your
+          browser, your IP address, device ID, what pages you visit on our
+          Partner Sites, which website you came from, what advertisements you
+          clicked on, whether on our Partner Websites, the Service or other
+          third party websites, and other information about your online activity
+          that does not identify you as an individual, in accordance with their
+          data privacy policy:
+          <Link
+            className="text-blue-600"
+            to="https://help.disqus.com/en/articles/1717103-disqus-privacy-policy"
+            target="_new"
+          >
+            {" "}
+            https://help.disqus.com/en/articles/1717103-disqus-privacy-policy
+          </Link>
+        </p>
+        <p>Fancy Facebook Comments Pro</p>
+        <p>
+          If you are using{" "}
+          <Link
+            className="text-blue-600"
+            to="https://www.heateor.com/fancy-facebook-comments-pro/"
+            target="_new"
+          >
+            {" "}
+            Fancy Facebook Comments Pro
+          </Link>
+          plugin at your website and you have saved Facebook App ID and Facebook
+          App Secret in the Moderation section, you can add following in the
+          privacy policy of your website after enabling the GDPR opt-in from
+          GDPR section:
+        </p>
+        <p>
+          We collect the data related to the Facebook Comment you post, only
+          from your consent that you grant before posting Facebook Comment at
+          our website. This data includes your Facebook account name, unique
+          Facebook account identifier, unique identifier associated to the
+          posted Facebook comment, unique open graph object identifier of the
+          webpage at which you posted the comment, unique identifier associated
+          to the parent comment if you reply to an existing comment. This data
+          is used to show recent Facebook Comments made all over our website.
+          You can revoke this consent at any time by unchecking the opt-in
+          displayed above comment box
+        </p>
+        <p>
+          If you have enabled email notification from the Notification section,
+          you can add following in the privacy policy of your website after
+          enabling the GDPR opt-in from GDPR section:
+        </p>
+        <br />
+        <p>
+          We send the Facebook Comment you post, to page/post author and/or
+          website administrator via automated email, only from your consent that
+          you grant before posting Facebook Comment at our website. This data
+          includes just the Facebook comment posted by you. You can revoke this
+          consent at any time by unchecking the opt-in displayed above comment
+          box
+        </p>
+        <br />
+        <p>Facebook Comments Moderation</p>
+        <p>
+          If you are using{" "}
+          <Link
+            className="text-blue-600"
+            to="https://www.heateor.com/fancy-facebook-comments-pro/"
+            target="_new"
+          >
+            {" "}
+            Facebook Comments Moderation
+          </Link>{" "}
+          add-on at your website and you have saved Facebook App ID and Facebook
+          App Secret, you can add following in the privacy policy of your
+          website after enabling the GDPR opt-in from GDPR section at add-on
+          options page:
+        </p>
+        <p>
+          We collect the data related to the Facebook Comment you post, only
+          from your consent that you grant before posting Facebook Comment at
+          our website. This data includes your Facebook account name, unique
+          Facebook account identifier, unique identifier associated to the
+          posted Facebook comment, unique open graph object identifier of the
+          webpage at which you posted the comment, unique identifier associated
+          to the parent comment if you reply to an existing comment. This data
+          is used to show recent Facebook Comments made all over our website.
+          You can revoke this consent at any time by unchecking the opt-in
+          displayed above comment box
+        </p>
+        <p>Facebook Comments Notifier</p>
+        <p>
+          If you are using{" "}
+          <Link
+            className="text-blue-600"
+            to="https://www.heateor.com/fancy-facebook-comments-pro/"
+            target="_new"
+          >
+            {" "}
+            Facebook Comments Notifier
+          </Link>{" "}
+          add-on at your website and you have saved Facebook App ID and Facebook
+          App Secret, you can add following in the privacy policy of your
+          website after enabling the GDPR opt-in from GDPR section at add-on
+          options page:
+        </p>
+        <p>
+          We send the Facebook Comment you post, to page/post author and/or
+          website administrator via automated email, only from your consent that
+          you grant before posting Facebook Comment at our website. This data
+          includes just the Facebook comment posted by you. You can revoke this
+          consent at any time by unchecking the opt-in displayed above comment
+          box
+        </p>
+        <br />
+        <p>Social Analytics for Sharing</p>
+        <p>
+          If you are using our{" "}
+          <Link
+            className="text-blue-600"
+            to="https://www.heateor.com/fancy-facebook-comments-pro/"
+            target="_new"
+          >
+            {" "}
+            Social Analytics for Sharing
+          </Link>{" "}
+          add-on at your website, you can add following in the privacy policy of
+          your website:
+        </p>
+        <p>
+          We use Google Analytics to track social shares made at our website.
+          Google automatically collect and store certain information in their
+          server logs which includes device event information such as crashes,
+          system activity, hardware settings, browser type, browser language,
+          the date and time of your request and referral URL, cookies that may
+          uniquely identify your browser or your Google Account, in accordance
+          with their data privacy policy:
+          <Link
+            className="text-blue-600"
+            to="https://policies.google.com/privacy"
+            target="_new"
+          >
+            {" "}
+            https://policies.google.com/privacy
+          </Link>{" "}
+        </p>
+        <p>
+          Facebook Like, Facebook Recommend, Facebook Share official buttons
+        </p>
+        <br />
+        <p>
+          If you are using social sharing feature of our plugins and you have
+          enabled any of these official buttons, you can add following in the
+          privacy policy of your website:
+        </p>
+        <p>
+          We embed a Facebook widget to allow you to see number of
+          likes/shares/recommends and “like/share/recommend” our webpages. This
+          widget may collect your IP address, your web browser User Agent, store
+          and retrieve cookies on your browser, embed additional tracking, and
+          monitor your interaction with the widget, including correlating your
+          Facebook account with whatever action you take within the widget (such
+          as “liking/sharing/recommending” our webpage), if you are logged in to
+          Facebook. For more
+        </p>
+        <p>
+          information about how this data may be used, please see Facebook’s
+          data privacy policy:
+          <Link
+            className="text-blue-600"
+            to="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
+            target="_new"
+          >
+            {" "}
+            https://www.facebook.com/about/privacy/update
+          </Link>
+        </p>
+        <br />
+        <p>Twitter Tweet official button</p>
+        <p>
+          If you are using social sharing feature of our plugins and you have
+          enabled Twitter Tweet official button, you can add following in the
+          privacy policy of your website: We use a Twitter Tweet widget at our
+          website. As a result, our website makes requests to Twitter’s servers
+          for you to be able to tweet our webpages using your Twitter account.
+          These requests make your IP address visible to Twitter, who may use it
+          in accordance with their data privacy policy:
+          <Link
+            className="text-blue-600"
+            to="https://x.com/en/privacy#update"
+            target="_new"
+          >
+            {" "}
+            https://twitter.com/en/privacy#update
+          </Link>
+        </p>
+        <br />
+        <p>GooglePlus, GooglePlus Share official buttons</p>
+        <p>
+          If you are using social sharing feature of our plugins and you have
+          enabled any of these official buttons, you can add following in the
+          privacy policy of your website: We use a GooglePlus widget at our
+          website. As a result, our website makes requests to Google’s servers
+          for you to be able to share our webpages using your GooglePlus
+          account. These requests make your IP address visible to Google, who
+          may use it in accordance with their data privacy policy:
+          <Link
+            className="text-blue-600"
+            to="https://policies.google.com/privacy"
+            target="_new"
+          >
+            {" "}
+            https://policies.google.com/privacy
+          </Link>
+        </p>
+        <br />
+        <p>Linkedin Share official button</p>
+        <p>
+          If you are using social sharing feature of our plugins and you have
+          enabled Linkedin Share official button, you can add following in the
+          privacy policy of your website: We use a Linkedin Share widget at our
+          website to allow you to share our webpages on Linkedin. These requests
+          may track your IP address in accordance with their data privacy
+          policy:{" "}
+          <Link
+            className="text-blue-600"
+            to="https://www.linkedin.com/legal/privacy-policy"
+            target="_new"
+          >
+            {" "}
+            https://www.linkedin.com/legal/privacy-policy
+          </Link>
+        </p>
+        <br />
+        <p>Pinterest Save official button</p>
+        <p>
+          If you are using social sharing feature of our plugins and you have
+          enabled Pinterest Save official button, you can add following in the
+          privacy policy of your website: We use Pinterest Save widget at our
+          website to allow you to pin images to Pinterest from our webpages.
+          These requests may track your IP address in accordance with their data
+          privacy policy:{" "}
+          <Link
+            className="text-blue-600"
+            to="https://policy.pinterest.com/en/privacy-policy"
+            target="_new"
+          >
+            {" "}
+            https://policy.pinterest.com/en/privacy-policy
+          </Link>
+        </p>
+        <br />
+        <p>Buffer official button</p>
+        <p>
+          If you are using social sharing feature of our plugins and you have
+          enabled Buffer official button, you can add following in the privacy
+          policy of your website: We use Buffer widget at our website to allow
+          you to add our webpages to your Buffer account, which collects log
+          data from your browser. This Log Data may include information such as
+          your IP address, browser type or the domain at which you are
+          interacting with the widget, in accordance with their privacy policy:
+          <Link
+            className="text-blue-600"
+            to="https://buffer.com/legal#privacy-policy"
+            target="_new"
+          >
+            {" "}
+            https://buffer.com/legal#privacy-policy
+          </Link>
+        </p>
+        <br />
+        <p>Xing Share official button</p>
+        <p>
+          If you are using social sharing feature of our plugins and you have
+          enabled Xing Share official button, you can add following in the
+          privacy policy of your website: We use Xing Share widget at our
+          website to allow you to share our webpages on Xing and this let Xing
+          collate data about you automatically by means of tracking, in
+          accordance with their privacy policy:
+          <Link
+            className="text-blue-600"
+            to="https://privacy.xing.com/en/privacy-policy"
+            target="_new"
+          >
+            {" "}
+            https://privacy.xing.com/en/privacy-policy
+          </Link>
+        </p>
+        <br />
+        <p>Reddit Badge official button</p>
+        <p>
+          If you are using social sharing feature of our plugins and you have
+          enabled Reddit Badge official button, you can add following in the
+          privacy policy of your website: We use Reddit Badge widget at our
+          website which may log information when you interact with the widget.
+          This may include your IP address, user-agent string, browser type,
+          operating system, referral URLs, device information (e.g., device
+          IDs), pages visited, links clicked, user interactions (e.g., voting
+          data), the requested URL and hardware settings, in accordance with
+          their privacy policy:
+          <Link
+            className="text-blue-600"
+            to="https://www.reddit.com/policies/privacy-policy?rdt=59209"
+            target="_new"
+          >
+            {" "}
+            https://www.reddit.com/policies/privacy-policy?rdt=59209
+          </Link>
+        </p>
+        <br />
+        <p>StumbleUpon Badge official button</p>
+        <p>
+          If you are using social sharing feature of our plugins and you have
+          enabled StumbleUpon Badge official button, you can add following in
+          the privacy policy of your website: We use StumbleUpon Badge widget at
+          our website which may log information when you interact with the
+          widget. Log Data is a form of Non-Identifying Information, in
+          accordance with their privacy policy:
+          <Link
+            className="text-blue-600"
+            to="https://www.stumbleupon.com/privacy"
+            target="_new"
+          >
+            {" "}
+            https://www.stumbleupon.com/privacy
+          </Link>
+        </p>
+        <br />
+        <p className="font-medium text-xl">Your rights</p>
+        <p>
+          You have a right under EU data protection laws to access your personal
+          information. On request, we will provide you with a copy of this
+          information. You will not have to pay a fee to access your personal
+          data (or to exercise any of the other rights). However, we may charge
+          a reasonable fee if your request is clearly unfounded, repetitive or
+          excessive. Alternatively, we may refuse to comply with your request in
+          these circumstances. You also have a right to correct any errors or
+          inaccuracies in that personal information and a right to object to the
+          processing of your personal information.
+        </p>
+        <p>
+          If you wish to exercise any of these rights you should send an email
+          to{" "}
+          <ButtonMailto
+            label="contact@deltasoftsystem.com"
+            mailto="mailto:contact@deltasoftsystem.com"
+          />
+        </p>
+        <br />
+        <p className="font-medium text-xl">Contacting us</p>
+        <p>
+          Please submit any questions, concerns or comments you have about this
+          privacy policy or any requests concerning your personal data by email
+          to  <ButtonMailto
+            label="contact@deltasoftsystem.com"
+            mailto="mailto:contact@deltasoftsystem.com"
+          />
         </p>
       </div>
     </div>

@@ -16,6 +16,7 @@ import GoogleAdwords from './pages/GoogleAdwords'
 import ScrollToTop from './components/ScrollToTop'
 import Terms from './pages/Terms'
 import Privacy from './pages/Privacy'
+import Refund from './pages/Refund'
 
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
         <Route path="/googleadwords"element={<GoogleAdwords/>}></Route>
         <Route path="/terms"element={<Terms/>}></Route>
         <Route path="/privacy"element={<Privacy/>}></Route>
+        <Route path="/refund"element={<Refund/>}></Route>
         {/* <Route path="/graphicdesign"element={<GraphicDesign/>}></Route> */}
       </Routes>
       <Footer/>

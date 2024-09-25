@@ -196,7 +196,6 @@ const Contact_us = () => {
           <div className="flex mt-5">
             <img className="w-16 lg:w-24" src="./images/location.svg" alt="" />
             <p className="ml-2 text-lg font-semibold">
-              1168judge Avenue,
               <br /> Narayanadeep Annexe, 7/18,Tilak
               <br /> Nagar,Kanpur,Uttar Pradesh
               <br/>208002
