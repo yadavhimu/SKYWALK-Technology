@@ -89,7 +89,7 @@ const Footer = () => {
             </NavLink>
             <NavLink
               className="mt-3 text-lg font-medium"
-              to="/"
+              to="/privacy"
             >
               Privacy & Policy
             </NavLink>

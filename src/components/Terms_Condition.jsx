@@ -2,7 +2,7 @@ import React from "react";
 
 const Terms_Condition = () => {
   return (
-    <div>
+    <div className="ml-4">
       <h1 className="text-2xl lg:text-4xl flex justify-center mt-10 font-medium">
         Terms & Conditions
       </h1>
