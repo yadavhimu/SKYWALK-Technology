@@ -6,10 +6,11 @@ const Navbar = () => {
 
   return (
     <div className=" flex items-center justify-between py-5 font-medium ">
-      <div className="flex items-center w-40 md:w-56  lg:w-64">
+      
+        <NavLink to="/" className="flex items-center w-40 md:w-56  lg:w-64">
         <img className=" w-12 md:w-16 lg:w-full" src="../images/logo0.png" alt="logo" />
         <img className=" flex " src="../images/logo1.png" alt="logo" />
-      </div>
+        </NavLink>
 
       <ul className="hidden  lg:flex  md:text-lg lg:text-2xl lg:gap-5  text-gray-700">
         <NavLink

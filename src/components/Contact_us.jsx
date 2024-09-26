@@ -165,18 +165,18 @@ const Contact_us = () => {
       </div>
 
       <div className=" mt-20 sm:mt-32">
-        <h1 className="ml-20 text-3xl text-red-900 sm:font-semibold sm:ml-40">HeadOffice :</h1>
-        <div className="box_contact lg:flex justify-evenly">
+        <h1 className="text-3xl text-red-900 font-semibold ">HeadOffice :</h1>
+        <div className="box_contact lg:flex ">
           <div className="flex mt-5">
             <img className="w-16 lg:w-24" src="./images/location.svg" alt="" />
             <p className="ml-2 text-lg font-semibold">
-              1168judge Avenue,
+              1168 Judges Avenue,
               <br /> Orlando Florida
               <br />
               3281744411
             </p>
           </div>
-          <div className="flex mt-5">
+          <div className="flex mt-5 lg:ml-44">
             <img className="w-16 lg:w-24" src="./images/mail.png" alt="" />
             <p className="ml-4 mt-7 text-lg lg:text-xl font-semibold">
               contact@deltasoftsystem.com
@@ -191,9 +191,9 @@ const Contact_us = () => {
         </div>
       </div>
       <div className="mt-14 sm:mt-32">
-        <h1 className="ml-20 text-3xl text-red-900 font-semibold sm:ml-40">Corporate Office :</h1>
-        <div className="box_contact lg:flex justify-evenly">
-          <div className="flex mt-5">
+        <h1 className=" text-3xl text-red-900 font-semibold ">Corporate Office :</h1>
+        <div className="box_contact lg:flex ">
+          <div className="flex mt-5 ">
             <img className="w-16 lg:w-24" src="./images/location.svg" alt="" />
             <p className="ml-2 text-lg font-semibold">
               <br /> Narayanadeep Annexe, 7/18,Tilak
@@ -201,13 +201,13 @@ const Contact_us = () => {
               <br/>208002
             </p>
           </div>
-          <div className="flex mt-5">
+          <div className="flex mt-5 lg:ml-[64px]">
             <img className="w-16 lg:w-24" src="./images/mail.png" alt="" />
             <p className="ml-4 mt-7 text-lg lg:text-xl font-semibold">
               info@deltasoftsystem.com
             </p>
           </div>
-          <div className="flex mt-5">
+          <div className="flex mt-5 lg:ml-[40px] ">
             <img className="w-16 lg:w-24" src="./images/phone.png" alt="" />
             <p className="ml-4 mt-7 text-xl font-semibold">
               +91 -9569526179
