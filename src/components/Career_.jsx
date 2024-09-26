@@ -56,45 +56,45 @@ const Career_ = () => {
         </p>
       </div>
 
-      <div className="lg:flex w-full mt-10">
-        <div className=" w-full ml-20 sm:ml-0 md:ml-20  mt-14">
+      <div className="lg:flex w-full mt-10 lg:mt-32">
+        <div className=" w-full   lg:ml-20  mt-14">
           <form onSubmit={onSubmit}>
             <div className="input-box">
               <label></label>
               <input
                 type="text"
-                className="w-[60%] h-16"
+                className="w-[100%] lg:w-[60%] h-16"
                 placeholder="Full Name"
                 name='name'
                 required
               />
-              <hr className="border-2 border-orange-500 w-[60%]" />
+              <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
             </div>
             <div className="input-box">
               <label></label>
               <input
                 type="email"
-                className="w-[60%] h-16 "
+                className="w-[100%] lg:w-[60%] h-16 "
                 placeholder="Email"
                 name='email'
                 required
               />
-              <hr className="border-2 border-orange-500 w-[60%]" />
+              <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
             </div>
             <div className="input-box">
               <label></label>
               <input
                 type="number"
-                className="w-[60%] h-16"
+                className="w-[100%] lg:w-[60%] h-16"
                 placeholder="Phone"
                 name='phone'
                 required
               />
-              <hr className="border-2 border-orange-500 w-[60%]" />
+              <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
             </div>
             <div className="input-box">
               <label></label>
-              <select name='Position' className="Select Position w-[60%] h-16">
+              <select name='Position' className="Select Position w-[100%] lg:w-[60%] h-16">
                 <option value="Position">Position</option>
                 <option>Software Developer</option>
                 <option>Test Engineer</option>
@@ -106,9 +106,9 @@ const Career_ = () => {
                 <option>Process Associate</option>
                 <option>Chat Process</option>
               </select>
-              <hr className="border-2 border-orange-500 w-[60%]" />
+              <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
             </div>
-            <div className="input-box">
+            {/* <div className="input-box">
               <label></label>
               <input
                 type="Date"
@@ -118,17 +118,17 @@ const Career_ = () => {
                 required
               />
               <hr className="border-2 border-orange-500 w-[60%]" />
-            </div>
+            </div> */}
 
             <button
-              className="mt-20 w-[60%] bg-yellow-400 h-10 font-bold text-lg"
+              className="mt-20 w-[100%] lg:w-[60%] bg-yellow-400 h-10 font-bold text-lg"
               type="submit"
             >
               Send Message
             </button>
           </form>
         </div>
-        <div className=" sm:w-full">
+        <div className="w-[100%] sm:w-full">
           <img src="./images/careerpage.webp" alt="" />
         </div>
       </div>

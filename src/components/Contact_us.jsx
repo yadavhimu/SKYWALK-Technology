@@ -32,7 +32,7 @@ const Contact_us = () => {
 
   return (
     <div className="contact_main">
-      <div className="inside_contact ">
+      <div className="inside_contact mt-10">
         <h1 className=" text-4xl sm:text-6xl flex justify-center text-blue-950 sm:mb-10">
           Contact us
         </h1>
@@ -97,65 +97,65 @@ const Contact_us = () => {
           </div>
         </div>
 
-        <div className=" w-full ml-20 sm:ml-0 md:ml-20 lg:w-[50%] mt-14">
+        <div className=" lg:ml-20  lg:w-[50%] mt-14">
           <form onSubmit={onSubmit}>
             <div className="input-box">
               <label></label>
               <input
                 type="text"
-                className="w-[60%] h-16"
+                className="w-[100%] lg:w-[60%] h-16"
                 placeholder="Full Name"
                 name='name'
                 required
               />
-              <hr className="border-2 border-orange-500 w-[60%]" />
+              <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
             </div>
             <div className="input-box">
               <label></label>
               <input
                 type="email"
-                className="w-[60%] h-16 "
+                className="w-[100%] lg:w-[60%] h-16 "
                 placeholder="Email"
                 name='email'
                 required
               />
-              <hr className="border-2 border-orange-500 w-[60%]" />
+              <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
             </div>
             <div className="input-box">
               <label></label>
               <input
                 type="number"
-                className="w-[60%] h-16"
+                className="w-[100%] lg:w-[60%] h-16"
                 placeholder="Phone"
                 name='phone'
                 required
               />
-              <hr className="border-2 border-orange-500 w-[60%]" />
+              <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
             </div>
             <div className="input-box">
               <label></label>
               <input
                 type="text"
-                className="w-[60%] h-16 "
+                className="w-[100%] lg:w-[60%] h-16 "
                 placeholder="Subject"
                 name='subject'
                 required
               />
-              <hr className="border-2 border-orange-500 w-[60%]" />
+              <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
             </div>
             <div className="input-box">
               <label></label>
               <textarea
-                className="w-[60%] h-20"
+                className="w-[100%] lg:w-[60%] h-20"
                 id=""
                 placeholder="Type your message here"
                 name='message'
                 required
               />
-              <hr className="border-2 border-orange-500 w-[60%]" />
+              <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
             </div>
             <button
-              className="mt-20 w-[60%] bg-yellow-400 h-10 font-bold text-lg"
+              className="mt-20 w-[100%] lg:w-[60%] bg-yellow-400 h-10 font-bold text-lg"
               type="submit"
             >
               Send Message

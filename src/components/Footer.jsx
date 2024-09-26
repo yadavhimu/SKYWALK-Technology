@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <div className=" bg-[#f5af2c] mb-3 rounded-lg">
-      <div className="md:flex ml-10  gap-14 my-10 mt-40 p-2 text-sm">
+      <div className="md:flex ml-10 gap-5 lg:gap-14 my-10 mt-40 p-2 text-sm">
         <div>
-          <p className="text-3xl  mb-5 font-bold">Services</p>
+          <p className="text-3xl  mt-5 font-bold">Services</p>
           <ul className="flex flex-col gap-1 text-black">
             {/* <NavLink
               className="mt-2 text-lg font-medium"
@@ -38,7 +38,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <p className="text-3xl  mb-5 font-bold">Our Product</p>
+          <p className="text-3xl  mt-5 font-bold">Our Product</p>
           <ul className="flex flex-col gap-1 text-black">
             <li className="mt-2 text-lg font-medium">
               {" "}
@@ -58,7 +58,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <p className="text-3xl  mb-5 font-bold">About Us</p>
+          <p className="text-3xl  mt-5 font-bold">About Us</p>
           <ul className="flex flex-col gap-1 text-black">
             <NavLink className="mt-2 text-lg font-medium" to="/aboutus">
               About Company
