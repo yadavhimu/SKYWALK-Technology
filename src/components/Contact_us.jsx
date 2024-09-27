@@ -1,33 +1,30 @@
-import React from "react";
+
 import Swal from 'sweetalert2'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-const Contact_us = () => {
+export const Contact_us = () => {
+  const form = useRef();
 
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    const formData = new FormData(event.target);
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    formData.append("access_key", "69bcf56e-9748-4d7a-a861-a2c4533ccd93");
-
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
-
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json"
-      },
-      body: json
-    }).then((res) => res.json());
-
-    if (res.success) {
-      Swal.fire({
-        title: "Success!",
-        text: "Message sent successfully!",
-        icon: "success"
-      });
-    }
+    emailjs
+      .sendForm('service_2yrholb', 'template_u4j4loo', form.current, {
+        publicKey: 'hNBfJ23oKfzJK8N8K',
+      })
+      .then(
+        () => {
+          Swal.fire({
+            title: "Success!",
+            text: "Message sent successfully!",
+            icon: "success"
+          });
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   };
 
   return (
@@ -98,14 +95,14 @@ const Contact_us = () => {
         </div>
 
         <div className=" lg:ml-20  lg:w-[50%] mt-14">
-          <form onSubmit={onSubmit}>
+          <form ref={form} onSubmit={sendEmail}>
             <div className="input-box">
               <label></label>
               <input
                 type="text"
                 className="w-[100%] lg:w-[60%] h-16"
                 placeholder="Full Name"
-                name='name'
+                name='from_name'
                 required
               />
               <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
@@ -116,7 +113,7 @@ const Contact_us = () => {
                 type="email"
                 className="w-[100%] lg:w-[60%] h-16 "
                 placeholder="Email"
-                name='email'
+                name='from_email'
                 required
               />
               <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
@@ -127,7 +124,7 @@ const Contact_us = () => {
                 type="number"
                 className="w-[100%] lg:w-[60%] h-16"
                 placeholder="Phone"
-                name='phone'
+                name='from_phone'
                 required
               />
               <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
@@ -138,7 +135,7 @@ const Contact_us = () => {
                 type="text"
                 className="w-[100%] lg:w-[60%] h-16 "
                 placeholder="Subject"
-                name='subject'
+                name='from_subject'
                 required
               />
               <hr className="border-2 border-orange-500 w-[100%] lg:w-[60%]" />
