@@ -47,7 +47,7 @@
 
 @media  (max-width:640px){
     .main{
-        margin-top:0px;
+        margin-top:16px;
     }
     .inside_main{
         display: flex;
@@ -80,5 +80,12 @@
     .inside_main_1 p{
         font-size: 20px;
         line-height: 40px;
+    }
+}
+
+@media  (max-width:1023px){
+    .inside_main{
+        display: flex;
+        flex-direction: column;
     }
 }

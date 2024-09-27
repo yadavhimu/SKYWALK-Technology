@@ -46,31 +46,6 @@ const AnotherServices = () => {
             Licenses, RBI / FIPB Foreign Investment Promotion Board
           </li>
         </ol>
-        {/* <div className="inside_main_1">
-          <h1>RECRUITMENT PROCESS OUTSOURCING</h1>
-          <p>
-            With technological advancement contender sourcing, data generation,
-            applications on mobile as e-reference checks have become an
-            essential component. Recruiters are under a continuous pressure to
-            deliver optimal solutions. Thus, to enable recruiters up their game
-            Delta Soft System enables its clients to outsource essential back
-            office recruitment tasks, enabling clients to develop services that
-            will ensure that they are at forefront of the recruitment industry.
-            Our over 2 years of experience enables us to provide optimal
-            solutions to our clients.
-          </p>
-        </div>
-        <div className="inside_main_1">
-          <h1>BUSINESS ADVISORY SERVICES</h1>
-
-          <p>
-            Delta Soft System provides premier advisory services to its clients
-            carry out successful business transformations and strengthen their
-            presence in the business world through expert and practical business
-            advisory, Strategic and Operational improvement services focusing on
-            viable business opportunities for our clients
-          </p>
-        </div> */}
       </div>
     </div>
   );
