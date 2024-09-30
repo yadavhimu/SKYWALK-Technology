@@ -8,12 +8,6 @@ const Footer = () => {
         <div>
           <p className="text-3xl  mt-5 font-bold">Services</p>
           <ul className="flex flex-col gap-1 text-black">
-            {/* <NavLink
-              className="mt-2 text-lg font-medium"
-              to="/websitedesigning"
-            >
-              Website Designing
-            </NavLink> */}
             <NavLink
               className="mt-3 text-lg font-medium"
               to="/websitedevelopment"
@@ -26,12 +20,6 @@ const Footer = () => {
             >
               Software Development
             </NavLink>
-            {/* <NavLink
-              className="mt-3 text-lg font-medium"
-              to="/graphicdesign"
-            >
-              Graphics Design
-            </NavLink> */}
             <NavLink className="mt-3 text-lg font-medium" to="/googleadwords">
               Google Adword/PPC Packages
             </NavLink>
