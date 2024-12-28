@@ -130,7 +130,7 @@ const Google_Adwords = () => {
               <br /> Enhance User Acquisition
             </h1>
             <p className="text-xl flex justify-end mt-10">
-              Delta Soft System App Marketing Agency helping brands <br /> and
+              SKYWALK Technology App Marketing Agency helping brands <br /> and
               start-ups grow their mobile business through <br /> understanding
               customer needs and creating tailored <br /> marketing strategies
               to engage audience and facilitate rapid <br /> user acquisition.

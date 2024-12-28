@@ -31,7 +31,7 @@ const About_us = () => {
         </div>
 
         <p className="new_text" >
-          Founded in July 2019, Delta Soft System is an Indian software based
+          Founded in July 2024, SKYWALK Technology is an Indian software based
           company. We provide full services in the area of Software development,
           Software Solutions, Web Designing, Web Development, Search Engine
           Optimization, Digital Marketing, IT solutions and Services. We offer a
@@ -69,12 +69,12 @@ const About_us = () => {
         <div className="about_left">
           <h1>Our Strength</h1>
           <p className="left_p">
-            At Delta Soft System, our first step is to understand the
+            At SKYWALK Technology, our first step is to understand the
             client/customer 
             requirement and specification,
              processes,operation and priorities. This help us to offer the
             best solution
-            for business value and for specific needs. <br /> Delta Soft System
+            for business value and for specific needs. <br /> SKYWALK Technology
             is chosen as the best company in design, deliver and manage any type
             of Software/ Web based application of a very large of
             customers/clients that includes Government, Education, Corporate and
@@ -122,7 +122,7 @@ const About_us = () => {
         <div className="about_last_box">
           <div className="about_last_left">
             <p>
-              Delta Soft System believes in a relationship where customers
+              SKYWALK Technology believes in a relationship where customers
               perceive they have been given more in attention than they
               expected. Our Customers are "touched" positively by the service,
               and remember the experience when the time involves buy or

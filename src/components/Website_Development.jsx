@@ -20,7 +20,7 @@ const Website_Development = () => {
         responsive website that works seamlessly
         <br /> across all devices that is both attractive and useful is the
         challenge. The team at
-        <br /> Delta Soft System will assist you right from the inception of
+        <br /> SKYWALK Technology will assist you right from the inception of
         your project till the end as we are a <br />
         leading web development company in India who aims to fulfill all of our
         client needs.
@@ -121,7 +121,7 @@ const Website_Development = () => {
           WordPress Website Development
         </h1>
         <p className="flex justify-center text-lg lg:text-xl text-center mt-8">
-          Delta Soft System is a leading WordPress development company which is
+          SKYWALK Technology is a leading WordPress development company which is
           deeply involved in high-performance <br /> WordPress website
           development services through its team of expert WordPress developers
           who have several years
@@ -145,7 +145,7 @@ const Website_Development = () => {
 
       <div className="">
         <p className="flex justify-center text-xl text-center mt-10">
-          Partnering with Delta Soft System means collaborating with a highly
+          Partnering with SKYWALK Technology means collaborating with a highly
           amicable team of WordPress experts.<br/> Get in touch with us to know what
           would be the best-fit solution for you.
         </p>
@@ -225,7 +225,7 @@ const Website_Development = () => {
           Static & Dynamic Website
         </h1>
         <p className="flex justify-center text-lg lg:text-2xl mt-4">
-          Delta Soft System offers unique Website Designing with the perfect
+          SKYWALK Technology offers unique Website Designing with the perfect
           blend of experience and latest tools <br />
           and technologies to back your online business presence. We specialize
           in Top Website Designing most
@@ -310,7 +310,7 @@ const Website_Development = () => {
           Enterprise websites need to generate <br /> real-world, measurable,
           and tangible results-attracting, educating, and converting the right
           audience.
-          <br /> Delta Soft System is best service provider for enterprises and
+          <br /> SKYWALK Technology is best service provider for enterprises and
           corporates.
         </p>
         <p className="flex justify-center text-lg lg:text-xl mt-14">
@@ -366,7 +366,7 @@ const Website_Development = () => {
       <div className=" lg:flex w-[100%] mt-10 lg:mt-5">
         <div className=" w-[100%] ">
           <h1 className=" lg:flex justify-end  lg:text-right text-yellow-500 font-semibold text-3xl lg:text-5xl">
-            Delta Soft System is
+            SKYWALK Technology is
             <br /> meant to simplify the <br /> Website according to your
             <br /> bussiness.
           </h1>

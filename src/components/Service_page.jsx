@@ -93,16 +93,6 @@ const Service_page = () => {
         </div>
       </div>
 
-      {/* <div>
-        <div>
-          <h1>
-            Delta Soft System offers creative website design and development
-            with dynamic functionality and attractive theme to grow your
-            business and increase your sales:{" "}
-          </h1>
-        </div>
-        <div></div>
-      </div> */}
     </div>
   );
 };

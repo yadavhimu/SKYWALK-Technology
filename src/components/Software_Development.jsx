@@ -106,7 +106,7 @@ const Software_Development = () => {
 
       <div className="text-center mt-16">
         <h1 className=" text-2xl  lg:text-5xl">
-          <span className=" text-yellow-500">Delta Soft System</span>provides
+          <span className=" text-yellow-500">SKYWALK Technology</span>provides
           Software Development
           <br /> Solutions customized to meet your needs
         </h1>
@@ -198,7 +198,7 @@ const Software_Development = () => {
           without compromising quality or functionality.
         </p>
         <p className="text-xl mt-16">
-          Transform your vision into reality with <span className="text-yellow-500 font-medium">Delta Soft System</span>  mobile app
+          Transform your vision into reality with <span className="text-yellow-500 font-medium">SKYWALK Technology</span>  mobile app
           development services for iOS, Android and more. Let’s get in touch to
           discuss your project and take the first step toward creating a
           remarkable mobile application that drives your business forward.

@@ -91,7 +91,7 @@ const Footer = () => {
         </div>
       </div>
       <div className=" text-center font-medium">
-        Developed by Delta Soft System. All Right Reserved.
+        Developed by SKYWALK Technology. All Right Reserved.
       </div>
     </div>
   );
