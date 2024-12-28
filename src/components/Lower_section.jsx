@@ -15,7 +15,7 @@ const Lower_section = () => {
             Empowering Business Owners to build their Faith For Bigger {" "}
             Business Success! So, We want to encourage you to work on 
             living your dreams now. Don't wait{" "}
-            <span className="bold_text">SKYWALK Technology</span> will {" "}
+            <span className="bold_text">Delta Soft System</span> will {" "}
             help you out.
           </h1>
         </div>

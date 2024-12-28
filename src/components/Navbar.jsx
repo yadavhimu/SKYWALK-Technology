@@ -6,12 +6,14 @@ const Navbar = () => {
 
   return (
     <div className=" flex items-center justify-between py-5 font-medium ">
-
-      <NavLink to="/">
-       <p className="text-4xl text-yellow-500">SKYWALK</p>
-       <p className="text-orange-600 italic">Technology</p>
-      </NavLink>
       
+        <NavLink to="/" className="">
+        <p className="text-yellow-500 text-4xl">SKYWALK</p>
+        <p className="text-orange-500">Technology</p>
+        
+        </NavLink>
+
+
         {/* <NavLink to="/" className="flex items-center w-40 md:w-56  lg:w-64">
         <img className=" w-12 md:w-16 lg:w-full" src="../images/logo0.png" alt="logo" />
         <img className=" flex " src="../images/logo1.png" alt="logo" />
@@ -52,12 +54,6 @@ const Navbar = () => {
             </div>
           </p>
         </NavLink>
-        {/* <NavLink
-          to="/otherservices"
-          className="flex flex-col items-center gap-1 cursor-pointer hover:text-black"
-        >
-          <p>US Outsourcing</p>
-        </NavLink> */}
         <NavLink
           to="/aboutus"
           className="flex flex-col items-center gap-1 cursor-pointer hover:text-black"
@@ -134,13 +130,6 @@ const Navbar = () => {
             </div>
             
           </NavLink>
-          {/* <NavLink
-            onClick={() => setVisible(false)}
-            className="py-2 pl-6 border"
-            to="/otherservices"
-          >
-            US Outsourcing
-          </NavLink> */}
           <NavLink
             onClick={() => setVisible(false)}
             className="py-2 pl-6 border"
