@@ -17,11 +17,6 @@ const Middetail = () => {
           prepared for failure.
         </p>
       </div>
-      {/* <div className="section_2">
-        <h1>Innovation</h1>
-        <h1>Support 24/7</h1>
-        <h1>Technology</h1>
-      </div> */}
     </div>
   );
 };

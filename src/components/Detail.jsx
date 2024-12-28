@@ -32,7 +32,7 @@ const Detail = () => {
         <div className="box-4">
           <h1 className="heading">Services</h1>
           <p className="sub-text">
-            At Delta Soft System, we focus on a convergence of technology and
+            At SKYWALK Technology, we focus on a convergence of technology and
             consulting to create innovative web applications delivering secure,
             scalable and intuitive functionality to your end users.
           </p>
@@ -46,19 +46,19 @@ const Detail = () => {
           
         </div>
         <div className="right mt-16">
-          <h1 className="heading"> WHY DELTA SOFT SYSTEM ?</h1>
+          <h1 className="heading"> WHY SKYWALK Technology ?</h1>
           <p className="right_text">
-            <span className="bold_text">Delta Soft System </span >is a software development company that has set new
+            <span className="bold_text">SKYWALK Technology </span >is a software development company that has set new
             and higher quality standard for services. As a leader in SEO, Web
             Design, e-Commerce, Website Conversion, and Internet Marketing
             Services, our firm prides ourselves on driving traffic, converting
             visitors, and measuring effectiveness to ultimately deliver real
-            results for our clients.<br/> <span className="bold_text">Delta Soft System</span> aim to make your online
+            results for our clients.<br/> <span className="bold_text">SKYWALK Technology</span> aim to make your online
             business experience smooth, speedy and efficient.<br/> Our association
             who specialize in various services like Website Designing, Web
             Development, Software Development, Digital Marketing and Graphics
             Designing. Get in touch with our team today to experience what makes
-            Delta Soft System stand apart from other agencies.
+            SKYWALK Technology stand apart from other agencies.
           </p>
         </div>
       </div>
