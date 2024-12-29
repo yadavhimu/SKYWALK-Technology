@@ -10,14 +10,7 @@ const Navbar = () => {
         <NavLink to="/" className="">
         <p className="text-yellow-500 text-4xl">SKYWALK</p>
         <p className="text-orange-500">Technology</p>
-        
         </NavLink>
-
-
-        {/* <NavLink to="/" className="flex items-center w-40 md:w-56  lg:w-64">
-        <img className=" w-12 md:w-16 lg:w-full" src="../images/logo0.png" alt="logo" />
-        <img className=" flex " src="../images/logo1.png" alt="logo" />
-        </NavLink> */}
 
       <ul className="hidden  lg:flex  md:text-lg lg:text-2xl lg:gap-5  text-gray-700">
         <NavLink
@@ -34,9 +27,6 @@ const Navbar = () => {
             Services
             <div className=" z-50 group-hover:block hidden absolute dropdown-menu  shadow-xl border-2 border-blue-200">
               <div className="flex flex-col  gap-2 w-72 py-3 px-3 bg-slate-100 text-blue-950 ">
-                {/* <li className="cursor-pointer hover:text-black">
-                  <NavLink to="/websitedesigning">Website Designing</NavLink>
-                </li> */}
                 <li className="cursor-pointer hover:text-black">
                   <NavLink to="/websitedevelopment">
                     Website Development

@@ -57,9 +57,7 @@ const Footer = () => {
             <NavLink className="mt-3 text-lg font-medium" to="/contactus">
               Contact Us
             </NavLink>
-            {/* <NavLink className="mt-3 text-lg font-medium" to="/contactus">
-              Get a Quote
-            </NavLink> */}
+          
           </ul>
           <div className="flex mt-8 gap-2">
             <img src="./images/facebook.png" alt="" />
