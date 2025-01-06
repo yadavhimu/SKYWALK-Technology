@@ -161,7 +161,7 @@ export const Contact_us = () => {
         </div>
       </div>
 
-      <div className=" mt-20 sm:mt-32">
+      {/* <div className=" mt-20 sm:mt-32">
         <h1 className="text-3xl text-red-900 font-semibold ">HeadOffice :</h1>
         <div className="box_contact lg:flex ">
           <div className="flex mt-5">
@@ -186,28 +186,28 @@ export const Contact_us = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="mt-14 sm:mt-32">
         <h1 className=" text-3xl text-red-900 font-semibold ">Corporate Office :</h1>
         <div className="box_contact lg:flex ">
           <div className="flex mt-5 ">
             <img className="w-16 lg:w-24" src="./images/location.svg" alt="" />
             <p className="ml-2 text-lg font-semibold">
-              <br /> Narayanadeep Annexe, 7/18,Tilak
-              <br /> Nagar,Kanpur,Uttar Pradesh
-              <br/>208002
+              <br />Flat No 1315 Raj Enclave,Gooba Garden
+              <br />Kanpur,Uttar Pradesh
+              <br/>208017
             </p>
           </div>
           <div className="flex mt-5 lg:ml-[64px]">
             <img className="w-16 lg:w-24" src="./images/mail.png" alt="" />
             <p className="ml-4 mt-7 text-lg lg:text-xl font-semibold">
-              info@deltasoftsystem.com
+            vikkygupta1356@gmail.com
             </p>
           </div>
           <div className="flex mt-5 lg:ml-[40px] ">
             <img className="w-16 lg:w-24" src="./images/phone.png" alt="" />
             <p className="ml-4 mt-7 text-xl font-semibold">
-              +91 -9569526179
+              +91 8604398677
             </p>
           </div>
         </div>

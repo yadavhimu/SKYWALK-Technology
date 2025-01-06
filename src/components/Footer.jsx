@@ -73,12 +73,12 @@ const Footer = () => {
             >
               Terms & Conditions
             </NavLink>
-            <NavLink
+            {/* <NavLink
               className="mt-3 text-lg font-medium"
               to="/privacy"
             >
               Privacy & Policy
-            </NavLink>
+            </NavLink> */}
             <NavLink
               className="mt-3 text-lg font-medium"
               to="/refund"
